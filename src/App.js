@@ -6,7 +6,7 @@ import Model from './Model';
 
 function App() {
   return (
-    <div className="webxr">
+    <div id='webxr'>
       <ARCanvas>
         <RayGrab>
           <Model />
