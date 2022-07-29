@@ -7,7 +7,7 @@ export default function Model({ ...props }) {
   const { nodes, materials } = useGLTF("/m1_metal.gltf");
   return (
     <group ref={group} {...props} dispose={null}>
-      <group scale={1}>
+      <group scale={0.5}>
         <mesh
           castShadow
           receiveShadow
